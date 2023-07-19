@@ -1,4 +1,4 @@
-FROM oven/bun:0.5.9
+FROM jarredsumner/bun
 WORKDIR /app
 COPY package.json package.json
 COPY bun.lockb bun.lockb
